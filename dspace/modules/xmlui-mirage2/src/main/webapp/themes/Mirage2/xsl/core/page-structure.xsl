@@ -517,7 +517,7 @@
                         <xsl:choose>
                             <xsl:when test="count(/dri:document/dri:meta/dri:pageMeta/dri:trail) > 1">
                                 <div class="breadcrumb dropdown visible-xs">
-                                    <a id="trail-dropdown-toggle" href="#" role="button" class="dropdown-toggle"
+                                    <a id="trail-dropdown-toggle" href="#" role="navigation" class="dropdown-toggle"
                                        data-toggle="dropdown">
                                         <xsl:variable name="last-node"
                                                       select="/dri:document/dri:meta/dri:pageMeta/dri:trail[last()]"/>
